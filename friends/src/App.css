@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: blue;
+  font-family: 'Hepta Slab', serif;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.name, .age, .email {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.age, .email {
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+}
+
+.name {
+  color: gold;
+  background-color: #de3831;
+  font-family: 'Cinzel', serif;
+  font-size: 42px;
+}
+
+.age {
+  background-color: black;
+  color: #007a4d;
+}
+
+.email {
+  background-color: #007a4d;
+  margin-bottom: 10px;
+}
